@@ -1,5 +1,5 @@
-.\objects\led.o: User\led.c
-.\objects\led.o: User\led.h
+.\objects\led.o: Hardware\led.c
+.\objects\led.o: Hardware\led.h
 .\objects\led.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\objects\led.o: .\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
 .\objects\led.o: I:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h

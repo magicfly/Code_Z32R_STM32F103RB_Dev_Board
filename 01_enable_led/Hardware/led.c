@@ -10,8 +10,8 @@
 **/
 #include "led.h"
 
-void LED_Init(void)
-{
+void LED_Init(void){
+	/***@brief inital LED port and LED pin***/
 	GPIO_InitTypeDef GPIO_InitStructure;
 	
 	RCC_APB2PeriphClockCmd(LED1_PORT_RCC, ENABLE);
